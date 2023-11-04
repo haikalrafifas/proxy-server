@@ -1,0 +1,13 @@
+{
+    "name": "haikalrafifas/php-proxy-server",
+    "description": "HTTP Proxy Server made using PHP.",
+    "type": "project",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "haikalrafifas",
+            "email": "haikalrafifas@github.com"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,34 @@
+# EditorConfig helps developers define and maintain consistent
+# coding styles between different editors and IDEs.
+# For more information about the format and options, see:
+# http://editorconfig.org/
+
+# Top-most EditorConfig file
+root = true
+
+# Set default charset
+[*]
+charset = utf-8
+
+# Indentation style
+[*.{php,html}]
+indent_style = space
+
+# Indent size for HTML files
+[*.html]
+indent_size = 2
+
+# Indent size for PHP files
+[*.php]
+indent_size = 4
+
+# Ensure consistent end-of-line style
+[*.{php,html}]
+end_of_line = lf
+
+# Trailing whitespace
+[*.{php,html}]
+trim_trailing_whitespace = true
+
+# Ensure a single newline at the end of files
+insert_final_newline = true
